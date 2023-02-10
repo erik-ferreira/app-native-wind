@@ -41,5 +41,3 @@ export function Button({ ...rest }) {
 }
 // O StyledComponent vai passar as estilizações para o component de baixo, nesse caso o TouchableOpacity
 ```
-
-### Pseudo classes de foco
