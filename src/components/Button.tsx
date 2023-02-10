@@ -4,7 +4,7 @@ import { StyledComponent } from "nativewind";
 export function Button({ ...rest }) {
   return (
     <StyledComponent component={TouchableOpacity} {...rest}>
-      <TouchableOpacity className="h-14 bg-green-500 rounded-md items-center justify-center">
+      <TouchableOpacity className="h-14 bg-orange-500 dark:bg-green-500 rounded-md items-center justify-center">
         <Text className="text-white font-bold text-lg">Hello</Text>
       </TouchableOpacity>
     </StyledComponent>
